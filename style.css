@@ -34,10 +34,18 @@ img {
 
 header {
   background-color: #1f2937;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
   padding: 20px 0px;
+}
+
+.container {
+  display: flex;
+  width: 75%;
+  margin: auto;
+}
+
+.header-container {
+  justify-content: space-between;
+  align-items: center;
 }
 
 .header-logo {
