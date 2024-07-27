@@ -1,3 +1,4 @@
+/* <-- START CSS RESET -->*/
 html {
   box-sizing: border-box;
 }
@@ -28,4 +29,29 @@ a {
 img {
   max-width: 100%;
   display: block;
+}
+/* <-- END CSS RESET --> */
+
+header {
+  background-color: #1f2937;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px 0px;
+}
+
+.header-logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #f9faf8;
+}
+
+nav ul {
+  display: flex;
+  gap: 20px;
+}
+
+nav a {
+  font-size: 18px;
+  color: #e5e7eb;
 }
