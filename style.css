@@ -53,7 +53,7 @@ header,
 
 .header-logo {
   font-size: 24px;
-  font-weight: bold;
+  font-weight: 700;
 }
 
 .header-logo,
@@ -103,7 +103,7 @@ nav a,
 .hero-text button {
   color: #ffffff;
   font-size: 18px;
-  font-weight: bold;
+  font-weight: 700;
   background-color: #3882f6;
   border-color: #3882f6;
   border-radius: 5px;
@@ -112,7 +112,7 @@ nav a,
 }
 
 .images-section {
-  height: 80vh;
+  height: 75vh;
   justify-content: center;
   display: flex;
   flex-direction: column;
@@ -150,7 +150,7 @@ nav a,
 
 .image-text {
   font-size: 16px;
-  color: #464141;
+  font-weight: 300;
   text-align: center;
   margin-top: 10px;
 }
