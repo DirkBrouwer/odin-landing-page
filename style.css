@@ -33,13 +33,16 @@ img {
 /* <-- END CSS RESET --> */
 
 header {
-  background-color: #1f2937;
   padding: 20px 0px;
 }
 
+header,
+.hero {
+  background-color: #1f2937;
+}
 .container {
   display: flex;
-  width: 75%;
+  width: 80%;
   margin: auto;
 }
 
@@ -51,6 +54,10 @@ header {
 .header-logo {
   font-size: 24px;
   font-weight: bold;
+}
+
+.header-logo,
+.hero-main-text {
   color: #f9faf8;
 }
 
@@ -59,7 +66,47 @@ nav ul {
   gap: 20px;
 }
 
-nav a {
+nav a,
+.hero-secondary-text {
   font-size: 18px;
   color: #e5e7eb;
+}
+
+.hero {
+  height: 75vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.hero-text,
+.image-placeholder {
+  width: 48%;
+}
+
+.hero-text {
+  margin-right: auto;
+}
+
+.image-placeholder {
+  color: #ffffff;
+  background-color: #6c737c;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-main-text {
+  font-size: 48px;
+  font-weight: 900;
+}
+
+.hero-text button {
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: bold;
+  background-color: #3882f6;
+  border-color: #3882f6;
+  border-radius: 5px;
+  padding: 5px 35px;
+  margin-top: 10px;
 }
