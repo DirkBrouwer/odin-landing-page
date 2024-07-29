@@ -26,6 +26,10 @@ a {
   text-decoration: none;
 }
 
+button {
+  cursor: pointer;
+}
+
 img {
   max-width: 100%;
   display: block;
@@ -34,6 +38,10 @@ img {
 
 header {
   padding: 20px 0px;
+}
+
+section {
+  display: flex;
 }
 
 header,
@@ -74,9 +82,9 @@ nav a,
   color: #e5e7eb;
 }
 
-.hero-section {
+.hero-section,
+.images-section {
   height: 75vh;
-  display: flex;
   flex-direction: column;
   justify-content: center;
 }
@@ -115,10 +123,6 @@ nav a,
 }
 
 .images-section {
-  height: 75vh;
-  justify-content: center;
-  display: flex;
-  flex-direction: column;
   padding-top: 35px;
   row-gap: 35px;
 }
@@ -160,7 +164,6 @@ nav a,
 .quote-section {
   height: 75vh;
   background-color: #e5e7eb;
-  display: flex;
   align-items: center;
 }
 
@@ -182,4 +185,35 @@ nav a,
 .quote-text,
 .quote-source {
   color: #1f2937;
+}
+
+.cta-section {
+  height: 60vh;
+  align-items: center;
+}
+
+.cta-section .container {
+  background-color: #3882f6;
+  padding: 50px 120px;
+  border-radius: 10px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cta-text,
+.cta-btn {
+  color: #ffffff;
+}
+
+.btn-wrapper {
+  margin-right: 30px;
+}
+
+.cta-btn {
+  font-size: 17px;
+  font-weight: 700;
+  background-color: transparent;
+  border: 2px solid #ffffff;
+  border-radius: 10px;
+  padding: 5px 30px;
 }
