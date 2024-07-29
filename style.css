@@ -40,10 +40,12 @@ header,
 .hero-section {
   background-color: #1f2937;
 }
+
 .container {
   display: flex;
   width: 80%;
-  margin: auto;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .header-container {
@@ -76,6 +78,7 @@ nav a,
   height: 75vh;
   display: flex;
   flex-direction: column;
+  justify-content: center;
 }
 
 .hero-text,
@@ -122,7 +125,6 @@ nav a,
 
 .column-container {
   flex-direction: column;
-  margin-top: 0;
 }
 
 .info-heading {
@@ -153,4 +155,31 @@ nav a,
   font-weight: 300;
   text-align: center;
   margin-top: 10px;
+}
+
+.quote-section {
+  height: 75vh;
+  background-color: #e5e7eb;
+  display: flex;
+  align-items: center;
+}
+
+.quote-section .container {
+  width: 60%;
+}
+
+.quote-text {
+  font: italic 300 36px "Roboto", sans-serif;
+}
+
+.quote-source {
+  font-size: 24px;
+  font-weight: 700;
+  align-self: flex-end;
+  margin-right: 20px;
+}
+
+.quote-text,
+.quote-source {
+  color: #1f2937;
 }
