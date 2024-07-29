@@ -37,7 +37,6 @@ img {
 /* <-- END CSS RESET --> */
 
 /* <-- START GENERAL SECTION STYLING --> */
-
 section,
 footer {
   display: flex;
@@ -71,11 +70,9 @@ footer {
 footer {
   align-items: center;
 }
-
 /* <-- END GENERAL SECTION STYLING --> */
 
 /* <-- START CONTAINER CLASSES --> */
-
 .container {
   display: flex;
   width: 80%;
@@ -108,11 +105,9 @@ footer {
   border-radius: 10px;
   justify-content: space-between;
 }
-
 /* <-- END CONTAINER CLASSES --> */
 
 /* <-- START HEADER STYLING --> */
-
 header {
   padding: 20px 0px;
 }
@@ -131,11 +126,9 @@ nav ul {
   display: flex;
   gap: 20px;
 }
-
 /* <-- END HEADER STYLING --> */
 
 /* <-- START HERO SECTION STYLING --> */
-
 nav a,
 .hero-secondary-text {
   font-size: 18px;
@@ -174,11 +167,9 @@ nav a,
   padding: 5px 35px;
   margin-top: 10px;
 }
-
 /* <-- END HERO SECTION STYLING --> */
 
 /* <-- START IMAGES SECTION STYLING --> */
-
 .images-section {
   padding-top: 35px;
   row-gap: 35px;
@@ -207,11 +198,9 @@ nav a,
   text-align: center;
   margin-top: 10px;
 }
-
 /* <-- END IMAGES SECTION STYLING --> */
 
 /* <-- START QUOTE SECTION STYLING --> */
-
 .quote-section {
   background-color: #e5e7eb;
 }
@@ -231,11 +220,9 @@ nav a,
 .quote-source {
   color: #1f2937;
 }
-
 /* <-- END QUOTE SECTION STYLING --> */
 
 /* <-- START CTA SECTION STYLING --> */
-
 .cta-section {
   height: 60vh;
 }
@@ -257,5 +244,14 @@ nav a,
   border-radius: 10px;
   padding: 5px 30px;
 }
-
 /* <-- END CTA SECTION STYLING --> */
+
+/* <-- START FOOTER STYLING --> */
+footer {
+  height: 15vh;
+}
+
+.copyright-text {
+  color: #ffffff;
+}
+/* <-- END FOOTER STYLING --> */
