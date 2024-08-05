@@ -136,20 +136,12 @@ nav a,
 }
 
 .hero-text,
-.image-placeholder {
+.hero-image-wrapper {
   width: 48%;
 }
 
 .hero-text {
   margin-right: auto;
-}
-
-.image-placeholder {
-  color: #ffffff;
-  background-color: #6c737c;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .hero-main-text {
@@ -166,6 +158,10 @@ nav a,
   border-radius: 5px;
   padding: 5px 35px;
   margin-top: 10px;
+}
+
+.hero-image {
+  border-radius: 15px;
 }
 /* <-- END HERO SECTION STYLING --> */
 
