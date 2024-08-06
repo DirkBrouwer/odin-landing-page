@@ -45,7 +45,7 @@ footer {
 header,
 .hero-section,
 footer {
-  background-color: #1f2937;
+  background-color: #38220f;
 }
 
 .hero-section,
@@ -100,7 +100,7 @@ footer {
 }
 
 .cta-section .container {
-  background-color: #3882f6;
+  background-color: #d87816;
   padding: 50px 120px;
   border-radius: 10px;
   justify-content: space-between;
@@ -153,8 +153,8 @@ nav a,
   color: #ffffff;
   font-size: 18px;
   font-weight: 700;
-  background-color: #3882f6;
-  border-color: #3882f6;
+  background-color: #d87816;
+  border-color: #d87816;
   border-radius: 5px;
   padding: 5px 35px;
   margin-top: 10px;
@@ -174,7 +174,7 @@ nav a,
 .info-heading {
   font-size: 36px;
   font-weight: 900;
-  color: #1f2937;
+  color: #38220f;
   margin: 0 auto;
 }
 
@@ -184,7 +184,7 @@ nav a,
 
 .image {
   height: 170px;
-  border: 4px solid #3882f6;
+  border: 4px solid #b49643;
   border-radius: 10px;
 }
 
@@ -214,7 +214,7 @@ nav a,
 
 .quote-text,
 .quote-source {
-  color: #1f2937;
+  color: #38220f;
 }
 /* <-- END QUOTE SECTION STYLING --> */
 
